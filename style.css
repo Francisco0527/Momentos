@@ -8,7 +8,7 @@ body {
   font-family: Arial, sans-serif;
   height: 100vh;
   overflow: hidden;
-  background: url("./assets/background.jpg") no-repeat center center fixed;
+  background: url("./assets/background2.png") no-repeat center center fixed;
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -24,7 +24,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(249, 208, 126);
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 .city-list {
@@ -38,7 +38,7 @@ body {
   width: 100%;
   padding: 10px;
   margin: 5px 0;
-  background-color: rgb(57, 33, 23);
+  background-color: rgb(19, 19, 17);
   color: white;
   border: none;
   border-radius: 5px;
@@ -104,11 +104,11 @@ iframe {
 }
 
 .city-list::-webkit-scrollbar-track {
-  background: rgb(249, 208, 126);
+  background: rgba(255, 255, 255, 0.8);
 }
 
 .city-list::-webkit-scrollbar-thumb {
-  background-color: rgb(100, 133, 105);
+  background-color: rgb(5, 147, 150);
   border-radius: 10px;
   border: 2px solid rgba(0, 0, 0, 0);
 }
