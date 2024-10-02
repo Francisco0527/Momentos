@@ -18,7 +18,7 @@ body {
 .container {
   width: 400px;
   max-height: 90vh;
-  background-color: rgb(238, 133, 9, 0.7);
+  background-color: rgb(253, 191, 21, 0.7);
   padding: 20px;
   border-radius: 10px;
   display: flex;
@@ -45,7 +45,7 @@ body {
 }
 
 .city-btn:hover {
-  background-color: #555;
+  background-color: rgb(69, 87, 64);
 }
 
 .photo-link {
@@ -103,7 +103,7 @@ iframe {
 }
 
 .city-list::-webkit-scrollbar-track {
-  background: rgba(238, 133, 9, 0.8);
+  background: rgb(253, 191, 21);
 }
 
 .city-list::-webkit-scrollbar-thumb {
