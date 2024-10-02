@@ -18,7 +18,7 @@ body {
 .container {
   width: 400px;
   max-height: 90vh;
-  background-color: rgb(238, 133, 9, 0.8);
+  background-color: rgb(238, 133, 9, 0.7);
   padding: 20px;
   border-radius: 10px;
   display: flex;
