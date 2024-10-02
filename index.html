@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cidades e Fotos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="city-list">
+            <button class="city-btn" data-link="https://photos.app.goo.gl/dv3idbCnEA88Rgyc6">Gramado</button>
+            <button class="city-btn" data-link="https://photos.app.goo.gl/ee83HcSfkntBN7g46">Campos do Jordão</button>
+            <button class="city-btn" data-link="https://photos.app.goo.gl/exemplo3">Paraty</button>
+            <button class="city-btn" data-link="https://photos.app.goo.gl/2BHGqDr3r99UBBPx7">Santo Hilario</button>
+            <button class="city-btn" data-link="https://photos.app.goo.gl/ve44UkzrqBr7qEqj9">Peru</button>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="photoModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <iframe id="photoFrame" src="" frameborder="0"></iframe>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
